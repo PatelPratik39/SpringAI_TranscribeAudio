@@ -6,7 +6,7 @@ const AudioUploader = () => {
   const [transcription, setTranscription] = useState("");
 
   const genrateTranscribe = (e) => {
-    setFile(e.target.file[0]);
+    setFile(e.target.files[0]);
   };
 
   const handleUpload = async () => {
@@ -39,7 +39,9 @@ const AudioUploader = () => {
           <input type="file" accept="audio/*" onChange={genrateTranscribe} />
         </div>
         <hr />
-        <button className="upload-button">Upload and Transcribe</button>
+        <button className="upload-button" onClick={handleUpload}>
+          Upload and Transcribe
+        </button>
         <div className="transcription-result">
           <h2>Transcription Result</h2>
           <p>{transcription}</p>

@@ -1,3 +1,65 @@
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+.file-input{
+  margin: 20px 0;
+}
+
+.file-input input{
+  padding: 10px;
+  border: 1px,solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.upload-button {
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.upload-button:hover {
+  background-color: darkcyan
+}
+.transcription-result{
+  margin: 30px;
+  text-align: center;
+  color: black;
+}
+
+.transcription-result h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.transcription-result p{
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,20 +67,9 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
+
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -38,5 +89,6 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #888; 
 }
+*/
