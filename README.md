@@ -1,2 +1,3 @@
 # SpringAI_TranscribeAudio
-![Image description](./assets/springAI_ChatModel.png)
+![Image description](./SpringAI2.png)
+![Image description](./SpringAI2_1.png)
